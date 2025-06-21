@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>吃喝玩乐日常 | 美食记录</title>
+</head>
+<body>
+  <header>
+    <h1>我的吃喝玩乐日常</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="food.html">美食记录</a></li>
+        <li><a href="travel.html">游玩足迹</a></li>
+        <li><a href="about.html">关于我</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>美食记录</h2>
+      <p>用味蕾探索世界，分享 <em>美食</em> 瞬间 🍜</p>
+      
+      <!-- 卡片布局（CSS 实现） -->
+      <div class="card">
+        <img src="2F2763F79EC8BAD0B7A323A5594B8894.jpg" alt="美食1">
+        <h3>夜宵时刻</h3>
+        <p>家乡特色炒扎粉、烧烤</p>
+      </div>
+      <div class="card">
+        <img src="F7DFA42021815AE112EC342D3A81E07A.jpg" alt="美食2">
+        <h3>家庭大餐</h3>
+        <p>生日当天妈妈做的一大桌子菜，幸福满满</p>
+      </div>
+      <div class="card">
+        <img src="403C5AF874E5CDEE3099B8012A11D6F0.jpg" alt="美食3">
+        <h3>挚友相聚</h3>
+        <p>生日当天朋友来我家一起烤烧烤</p>
+      </div>
+    </section>
+
+    <!-- 表单示例：美食推荐 -->
+    <section>
+      <h3>推荐你喜欢的美食</h3>
+      <form action="#" method="post">
+        <label for="food-name">美食名称：</label>
+        <input type="text" id="food-name" name="food-name" required>
+        
+        <label for="food-location">探店地点：</label>
+        <input type="text" id="food-location" name="food-location" required>
+        
+        <label for="food-desc">推荐理由：</label>
+        <textarea id="food-desc" name="food-desc" rows="3" required></textarea>
+        
+        <button type="submit">提交推荐</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 我的日常记录 - 原创作品</p>
+  </footer>
+</body>
+</html>
